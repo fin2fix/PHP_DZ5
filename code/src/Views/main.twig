@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+       <link rel="stylesheet" href="{{ linkStyle }}" >
+    </head>
+    <body>
+   <header class="header">{% include "header.twig" %}</header> 
+   <div class="container-main"> 
+    <div class="content">
+        {% include content_template_name %}
+        </div>
+        <aside class="sidebar">{% include "sidebar.twig" %}</aside>
+        </div>
+    {% include "footer.twig" %}
+    </body>
+</html>

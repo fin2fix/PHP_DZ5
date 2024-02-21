@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+.container h3 {
+  color: darkgray;
+}
+
+.error-message {
+  display: block;
+  margin: 32px auto;
+  padding: 32px;
+  width: 90%;
+  border-bottom: 1px solid #000;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #020210;
+  color: white;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}/*# sourceMappingURL=404.css.map */
